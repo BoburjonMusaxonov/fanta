@@ -3,3 +3,119 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #FAFAFA;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+.lorem{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+}
+.out1{
+    font-size: 44px;
+    line-height: 44px;
+    color: #121212;
+}
+.youtup1{
+    font-size: 14px;
+    line-height: 44px;
+    color: #656565;
+}
+.youtup2{
+    font-size: 18px;
+    line-height: 44px;
+    color: #656565;
+}
+.lily{
+    display: flex;
+    justify-content: space-between;
+}
+.ellemant a{
+    padding: 15px 18px;
+    background-color: rgb(219, 240, 240);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
+    color: black;
+}
+.ellemant a:hover{
+    background-color: #FF5634;
+    color: white;
+}
+
+.ssayy{
+    width: 1080px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-gap: 15px;
+    margin: 41px auto;
+}
+.dolsab{
+    width: 360px;
+    background-color: #EDEDED;
+    padding: 41px 33px;
+    border-radius: 15px;
+}
+.keep{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.need1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ineternet1{
+    font-size: 18px;
+    line-height: 20px;
+    color: #121212;
+}
+.ineternet2{
+    font-size: 18px;
+    line-height: 20px;
+    color: #FF5634;
+}
+.teacher{
+    font-size: 18px;
+    line-height: 20px;
+    color: #656565;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1155px){
+    .lorem{
+        align-items: center;
+        flex-direction: column;
+    }
+    .ssayy{
+        width: 720px;
+        grid-template-columns: 360px 360px;
+    }
+    .ellemant{
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width:760px){
+    .lorem{
+        align-items: center;
+        flex-direction: column;
+    }
+    .ssayy{
+        width: 360px;
+        grid-template-columns: 360px ;
+    }
+    .ellemant{
+        margin-top: 3rem;
+    }
+}
